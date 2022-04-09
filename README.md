@@ -25,4 +25,3 @@ W drugiej części dodamy do tego losowy generator map, zapisywanie/wczytywanie 
 ## Biblioteki
 - Bevy
 - może coś do serializacji danych? (czy mógłby Pan coś polecić?)
-- 
