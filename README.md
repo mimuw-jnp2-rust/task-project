@@ -1,27 +1,24 @@
-# Frobnicator
+# Frobnicator (this is a template)
 
-## Autorzy
-- Andrzej Głuszak (gr 9, @agluszak na githubie)
-- Linus Torvalds (Uniwersytet Helsiński, @torvalds na githubie)
+## Authors
+- Andrzej Głuszak (@agluszak on GitHub)
+- Linus Torvalds (@torvalds on GitHub)
 
-## Opis
-Od zawsze chcieliśmy napisać grę komputerową.
-Frobnicator będzie to gra platformowa, w której chodzi o to, żeby...
+## Description
+Frobnicator is going to be a platformer game similar to Super Mario Bros made using Bevy game engine.
 
-Z grubsza będziemy wzorować się na [tym tutorialu](https://dev.to/sbelzile/rust-platformer-part-1-bevy-and-ecs-2pci).
+## Features
+- map generator
+- shooting
+- enemy AI
+- game state saving and loading
+- scores
 
-## Funkcjonalność
-- Generowanie map
-- Strzelanie
-- AI dla wrogów (bardziej rozbudowane niż w tutorialu)
-- Możliwość zapisywania i wczytywania stanu gry
-- Punktacja
+## Plan
+In the first part we're going to implement the basics: movement, physics and shooting. The enemies will simply bounce from one edge of the platform to the other. There will be only a single map.
 
-## Propozycja podziału na części
-W pierwszej części stworzymy grę opartą na tutorialu (z lepszym AI) i jedną zahardcodowaną planszą.
+In the second part we're going to add random map generator, saving/loading, scores and a more sophisticated AI.
 
-W drugiej części dodamy do tego losowy generator map, zapisywanie/wczytywanie stanu gry oraz system punktacji.
-
-## Biblioteki
+## Libraries
 - Bevy
-- może coś do serializacji danych? (czy mógłby Pan coś polecić?)
+- Serde (for serialization)
